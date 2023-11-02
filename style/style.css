@@ -1,8 +1,47 @@
+
 html {box-sizing: border-box;}
 *::before,*::after {box-sizing: inherit;}
-.h1 {background-color: orange;}
 
-.img-recipes{
-    width: 50px;
-    border: 50px;
-}
+
+.body { background-image: url(../recipes/back.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        display: grid;
+        place-items: center;}
+
+.head { border-style: dashed;
+        color: white;
+        text-align: center;
+        background-color: rgb(70, 60, 0);
+        margin: 50px;
+        padding: 50px;
+        text-align: center;
+        width: fit-content;
+        font-weight: bolder;}
+
+.img {  width: auto;
+        height: 300px;
+        object-fit: cover;}
+
+.link { font-size: large;
+        color: whitesmoke;
+        background-color: rgb(70, 60, 0);
+        width: fit-content;
+        margin: 50px;
+        border-style: ridge;
+        text-align: center;
+        font-weight: bolder;}
+
+.l1 {   border-color: black;
+        margin: 20px;
+        border-radius:  5px;}
+    
+    
+.l2 {   border-color: black;
+            margin: 20px;}
+    
+    
+.l3 {   border-color: black;
+        margin: 20px;}
