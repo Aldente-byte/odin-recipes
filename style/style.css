@@ -1,0 +1,8 @@
+html {box-sizing: border-box;}
+*::before,*::after {box-sizing: inherit;}
+.h1 {background-color: orange;}
+
+.img-recipes{
+    width: 50px;
+    border: 50px;
+}
