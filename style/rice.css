@@ -1,0 +1,59 @@
+html {box-sizing: border-box;}
+*::before,*::after {box-sizing: inherit;}
+
+
+
+.body { background-image: url(../recipes/rice2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    place-items: center;}
+
+.head { border-style: dashed;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+    width: fit-content;
+    font-weight: bolder;
+border-width: 20px;}
+
+.img {  width: auto;
+        height: 300px;
+        object-fit: cover;}
+
+.title {font-size: 50px;
+width: auto;
+height: auto;
+background-color: lightgoldenrodyellow;
+padding: 10px;
+border-width: 5px;
+border-style: dotted;}
+
+.para { width: fit-content;
+        height: fit-content;
+background-color: transparent;
+padding: 10px;
+font-size: 30px;
+font-weight: 900;
+color: blanchedalmond;
+border-width: 10px;
+border-style: dashed;
+border-color: rgb(0, 0, 0);}
+
+.list { width: fit-content;
+    height: fit-content;
+background-color: transparent;
+padding: 10px;
+font-size: 30px;
+font-weight: 900;
+color:rgb(0, 0, 0);
+border-width: 10px;
+border-style: dashed;
+border-color: rgb(0, 0, 0);
+background-color: blanchedalmond;
+padding: 50px;}
